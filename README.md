@@ -51,8 +51,6 @@ An AI-powered adaptive educational platform that creates personalized learning e
 
 # 🤖 AI Integration
 
-Powered by GPT-4 / Claude 3.5 APIs for:
-
 - Personalized tutoring assistance
 - Dynamic content generation
 - Smart quiz generation
@@ -114,6 +112,21 @@ Provides explanations, hints, and real-time assistance.
 ## AI & APIs
 - Educational Resource APIs
 ---
+
+# 📌 Assumptions
+
+The following assumptions were considered during the development of the Smart Learning Path Generator:
+
+- Users have stable internet connectivity for accessing AI-powered features and real-time collaboration.
+- Educational content APIs provide valid and structured learning resources.
+- Students interact regularly with quizzes and assessments to improve personalization accuracy.
+- OAuth providers (Google/GitHub) are properly configured with valid credentials.
+- PostgreSQL database is hosted on a scalable cloud platform.
+- Learning analytics are generated based on user interaction history and quiz performance.
+- WebSocket connections are supported by the hosting platform for real-time communication.
+- The platform initially supports English-language educational content.
+- Role-based access control separates permissions for students, instructors, and administrators.
+
 
 # 📂 Project Structure
 
