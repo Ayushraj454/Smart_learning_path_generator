@@ -6,10 +6,7 @@ An AI-powered adaptive educational platform that creates personalized learning e
 
 ## 🚀 Live Demo
 
-🔗 Frontend: https://smart-learning-path.vercel.app  
-🔗 Backend API: https://smart-learning-api.onrender.com  
-
-> *(Replace these links with your actual deployed URLs)*
+🔗 https://smart-learning-path-3nq5.bolt.host/
 
 ---
 
@@ -94,7 +91,7 @@ Provides explanations, hints, and real-time assistance.
 # 🛠️ Tech Stack
 
 ## Frontend
-- React.js
+- TypeScript
 - Tailwind CSS
 - Redux Toolkit
 - Axios
@@ -102,7 +99,7 @@ Provides explanations, hints, and real-time assistance.
 - Chart.js / Recharts
 
 ## Backend
-- Node.js
+- TypeScript
 - Express.js
 - PostgreSQL
 - Prisma / Sequelize ORM
@@ -115,16 +112,7 @@ Provides explanations, hints, and real-time assistance.
 - GitHub Auth API
 
 ## AI & APIs
-- OpenAI GPT-4 API
-- Claude 3.5 API
 - Educational Resource APIs
-
-## Deployment
-- Vercel (Frontend)
-- Render / Railway (Backend)
-- NeonDB / Supabase PostgreSQL
-- Docker
-
 ---
 
 # 📂 Project Structure
@@ -132,8 +120,8 @@ Provides explanations, hints, and real-time assistance.
 ```bash
 smart-learning-path-generator/
 │
-├── client/                 # React Frontend
-├── server/                 # Node.js Backend
+├── client/                 # TypeScript Frontend
+├── server/                 # TypeScript Backend
 ├── ai-services/            # AI Agents & Logic
 ├── websocket/              # Real-time Features
 ├── database/               # PostgreSQL Schemas
